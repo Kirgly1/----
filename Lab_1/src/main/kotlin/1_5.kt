@@ -5,7 +5,7 @@ fun main() {
     val n = readlnOrNull()?.toIntOrNull()
 
     if (n != null) {
-        val result = n + n * 2
+        val result = "$n${n * 2}"
         println("Результат: $result")
     } else {
         println("Некорректный ввод. Пожалуйста, введите число.")
